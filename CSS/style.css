@@ -1,0 +1,47 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    position: relative;
+    background: #464a5d; 
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  #menuList{
+    background-color: #a04353;
+  }
+  #myLinks{
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #1c4461; 
+    padding: 50px;
+    z-index: 100;
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    display: block;
+  }
+  .topnav a.icon {
+    font-size: 50px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav a:hover {
+    cursor: pointer;
+  }
+  #article{
+    position: relative;
+    padding: 20px 10px;
+    color: white;
+    z-index: 0; 
+  }
